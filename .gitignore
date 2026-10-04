@@ -1,29 +1,28 @@
-# Runtime / session data
-.omo/run-continuation/
-.omo/drafts/
+node_modules
 
-# Impeccable cache
-.impeccable/
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
 
-# OS / IDE
+# OS
 .DS_Store
-.vscode/
-.idea/
-*.swp
-*.swo
+Thumbs.db
 
-# Environment
+# Env
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
+!.env.test
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+# Playwright
+test-results
 
-# Build outputs (if any)
-dist/
-build/
-*.tsbuildinfo
+# External projects
+flowbite-svelte-mcp
